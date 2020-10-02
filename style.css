@@ -1,43 +1,106 @@
 body {
-  background-color: #003366;
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: #003A6B;
+  font-family: Helvetica;
 }
 
-h1 {
+#Home_Header {
   color: white;
-  text-align: left;
-}
-
-a {
-  text-align: center;
+  margin: auto;
+  font-size: 40px;
 }
 
 #Pages {
-  background-color: rgb(146, 146, 146, 0.6);
+  background-color: rgb(115, 115, 115, 0.6);
   color: white;
-  margin: 20px 10px;
-  text-align: left;
-  line-height: 75px;
+  margin: auto;
+  font-size: 40px;
 }
 
-img {
+#Pages2 {
+  color: white;
+  margin: auto;
+  margin-top: 10;
+  font-size: 30px;
+}
+
+#Navi {
+  background-color: #088fc4;
+  overflow: auto;
+  margin: auto;
+  list-style-type: none;
+  padding: 0;
+  margin-top: 10;
+  
+}
+
+li {
+  float: left;
+}
+
+li a {
   display: block;
-  margin-top: 100px;
+  text-align: center;
+  padding: 15px 10px;
+  border-right: solid #007a99;
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #066b93;
+}
+
+#SelfPic {
+  display: block;
   height: 300px;
   width: 300px;
+  margin: 50px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+#Name {
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  color: white;
+}
+
+#Desc {
+  text-align: center;
+  color: white;
+  list-style-type: none;
+}
+
+#MainPageList {
+  text-align: center;
+  float: none;
+  margin: 15px;
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#DescItem {
+  float: none;
+  margin: 15px;
+  font-size: 20px;
+  color: white;
 }
 
 table {
   border: 1px solid;
   border-color: white;
-  height: 300px;
-  width: 700px;
+  height: 150px;
+  width: 1050px;
   text-align: center;
 }
 
 th {
   background-color:gray;
-  padding: 20px;
+  padding: -10px;
   text-align: center;
 }
 
@@ -47,17 +110,60 @@ td {
   text-align: center;
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+#Story {
+  color: white;
+  margin: auto;
+  padding: 30;
+  margin-top: 50;
   text-align: center;
+  font-size: 35px;
 }
 
-li {
-  border: solid white;
-  background-color: white;
-  display: inline;
-  padding: 10px;
+#Pics {
+  text-align: center;
+  margin-top: 100;
+  color: white;
 }
 
+#AboutMe {
+  color: white;
+  background-color: rgb(230, 230, 230, 0.3);
+  width: 1000px;
+  height: 300px;
+  margin: auto;
+  padding: 30;
+  text-align: center;
+  font-size: 23px;
+}
+
+#BirdIsland {
+  float: left;
+  width: 600;
+  margin-left: 300;
+  height: 450;
+  margin-bottom: 100;
+}
+
+#PeacePark {
+  float: right;
+  margin-right: 300;
+  width: 600;
+  height: 450;
+  margin-bottom: 100;
+}
+
+#FlameTree {
+  float: left;
+  width: 600;
+  margin-left: 300;
+  height: 450;
+  margin-bottom: 100;
+}
+
+#SuicideCliff {
+  float: right;
+  margin-right: 300;
+  width: 600;
+  height: 450;
+  margin-bottom: 100;
+}

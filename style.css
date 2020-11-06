@@ -202,3 +202,7 @@ td {
 #comments-title {
   float: right;
 }
+
+#Project-Links {
+  list-style: none;
+}

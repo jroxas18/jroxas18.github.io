@@ -58,7 +58,6 @@ li a:hover {
   margin: 50px;
   margin-left: auto;
   margin-right: auto;
-
 }
 
 #Name {
@@ -166,4 +165,40 @@ td {
   width: 600;
   height: 450;
   margin-bottom: 100;
+}
+
+#pet {
+  height: 800px;
+  width: 500px;
+  margin-top: 100px;
+}
+
+#inputs {
+  float: right;
+  margin-right: 275px;
+  margin-bottom: 30px;
+}
+#comment-area {
+  float: right;
+  background-color: lightgray;
+  height: 700px;
+  width: 500px;
+  margin-right: 200px;
+  padding: 10px;
+  margin-top: 100px;
+}
+
+#image-buttons {
+  margin-left: 450px;
+  padding: 10px;
+}
+
+#p-intro {
+  float: left;
+  margin-left: 100px;
+  color: white;
+}
+
+#comments-title {
+  float: right;
 }

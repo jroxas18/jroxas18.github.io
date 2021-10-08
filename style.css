@@ -10,6 +10,8 @@ body
   display: flex;
   flex-direction: row;
   border-radius: 10px;
+  margin: -10px;
+  margin-bottom: 0px;
 }
 
 #maxicon
@@ -51,6 +53,8 @@ body
   overflow: hidden;
   border: 3px solid #87CEFA;
   border-radius: 10px;
+  margin: -6px;
+  margin-top: 0px;
 }
 
 #navbar a {

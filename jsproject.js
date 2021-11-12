@@ -44,7 +44,7 @@ function flashText(element,color) {
 // endGame function to thank player and call flashText function
 function endGame() {
   let text = document.getElementById("game");
-  text.innerHTML = "<h1 id='animate' align='center'>Thank you for playing!</br>\"You're great!\" - Quote from Metal Slug</h1>";
+  text.innerHTML = "<h1 id='animate' align='center'>Thank you for playing!</br>\"You're great!\" - Quote from Metal Slug</h1><a href='https://c.tenor.com/09uldTF_OnIAAAAC/squirrel-dancing-squirrel.gif'>Claim prize</a>";
   
   setInterval(function() {
     flashText('animate','blue');

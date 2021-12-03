@@ -145,7 +145,7 @@ function particleSize(n, x1, y1, x2, y2) {
 
 // Lines 147-184 handles weather particles, generates new ones, and stores in array
 let cloudParticle = [];
-for (let i = 0; i < 120; i++) {
+for (let i = 0; i < 80; i++) {
   cloudParticle.push(new cloud());
 }
 
@@ -158,7 +158,7 @@ function handleCloud() {
 }
 
 let rainParticle = [];
-for (let i = 0; i < 150; i++) {
+for (let i = 0; i < 50; i++) {
   rainParticle.push(new rain());
 }
 
@@ -171,7 +171,7 @@ function handleRain() {
 }
 
 let snowParticle = [];
-for (let i = 0; i < 150; i++) {
+for (let i = 0; i < 50; i++) {
   snowParticle.push(new snow());
 }
 
